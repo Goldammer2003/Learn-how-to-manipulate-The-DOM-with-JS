@@ -27,6 +27,8 @@ describe('All the javascript should match', function () {
         //and I expect the alert to be already called.
         expect(alert.mock.calls.length).toBe(1);
         expect(alert).toHaveBeenCalledWith("Hello World");
+
+        
     });
 });
 
